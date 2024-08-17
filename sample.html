@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<br>
   <head>
     <title>webpage</title>
+    <style>
+      #heading{
+        background-color: 'red';
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
   </head>
-  <body>
-    <h1>Hello</h1>
+  <br>
+    <h1 id="heading">Hello</h1>
     <h2>Hello</h2>
     <p>This is a webpage designed to understand <em>HTML 5</em></p>
     <p>This is a webpage designed to understand <strong>HTML 5</strong></p>
@@ -30,8 +36,8 @@
       width="150"
     />
     <a href="https://www.youtube.com/">youtube</a>
-    <!-- <object width="100%" height="100%" data="sample.html"></object> -->
-      <table>
+    <!-- <object width="100%" height="100%" data="sample.html" type="application/pdf"></object> -->
+    <table>
       <tr>
         <th>Name</th>
         <th>Gender</th>
@@ -44,15 +50,26 @@
       </tr>
       <tr>
         <td>Vinay</td>
+        <image src="Images\th.jpg" width="50" height="50"> 
         <td>Male</td>
         <td>797008098</td>
       </tr>
     </table>
-    <form>
+  
+       <form method="get">
       <label>Username</label><br>
-      <input type="text" name="Username" id="'user">
-      <label>Password</label>
-      <input type="'Password" id="'pass" name="'Password">
-    </form>
+      <input type="text" name="Username" id="'user"><br>
+      <label>Password</label><br>
+      <input type="'Password" id="'pass" name="'Password"><br>
+  <input type="submit" value="Submit">
+      
+       </form>
+       <form method="get">
+ <label>First name:</label>
+ <input type="text"><br>
+ <label>Last name:</label>
+ <input type="text"><br>
+ <input type="submit" value="Submit">
+</form>
   </body>
 </html>
