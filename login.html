@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h2>Login form</h2>
+        <form method="post" onsubmit="validation()">
+            <input type="text" id="user" placeholder="Username">
+                <input type="password" id="pass" placeholder="Password">
+                    <input type="submit" id="Submit" placeholder="Submit">
+        </form>
+        <script>
+            function validation(){
+                var un = document.getElementById('user').value
+                       var pass = document.getElementById('pass').value
+                       if(un=='student' && pass =='1234'){
+                    window.alert('User Identified')
+                       }else{
+                        window.alert('wrong password')
+                       }
+            }
+        </script>
+    </body>
+</html>

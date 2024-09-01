@@ -34,3 +34,10 @@ let result = string+num
 console.log("result",result, typeof result)
 let convertedNumber = Number(result)
 console.log("convertedNumber", convertedNumber, typeof convertedNumber);
+
+let num1 = 10
+let num2 = 20
+let terinary = num1>num2?'Number1 is grater':'number2 is greater'
+console.log("terinary", terinary);
+
+let a =30
